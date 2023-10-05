@@ -1,0 +1,58 @@
+\documentclass[a4paper,10pt, oneside]{article}
+%package
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage[french]{babel}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{geometry}
+ \geometry{textwidth=17cm,textheight=26cm}
+\newcommand{\bbox}{\begin{tcolorbox}[colback=red!5!white,
+	colframe=red!75!black]\begin{center}}
+\newcommand{\ebox}{\end{center}\end{tcolorbox}}
+\newcommand{\red}{\colorbox{red}}
+\newcommand{\blue}{\colorbox{blue}}
+\newcommand{\yellow}{\colorbox{yellow}}
+\newcommand{\myit}{\textit}
+\newcommand{\mybf}{\textbf}
+\newcommand{\li}{\newline}
+
+\graphicspath{{./Images/}}
+
+\geometry{textwidth=16cm, textheight=26cm}
+
+\title{Fiche de lecture : Code City : A comparison of on-screen and virtual reality}
+
+\author{Matthys Gaillard}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+\section{\ul{Pourquoi ce choix ?}}
+		\par J'ai choisi ce document\cite{A1} parce que son titre amorçait déjà clairement le sujet : une comparaison de la compréhension de la 
+		structure d'un code à l'aide d'une visualisation 3D sur un écran classique et un écran de casque de réalité virtuelle. De plus, en lisant l'abstract,
+		j'ai pu remarqué que l'étude comparative se fondait sur un logiciel déjà existant : Code City que l'on peut trouver sur internet..
+\section{\ul{Analyse du document}}
+\subsection{\ul{Contexte}}
+		\par Les chercheurs ont remarqué qu'il existait déjà différentes méthodes pour visualiser du code-source. L'ne d'entre-elle est Code City. Ce logiciel
+		propose une visualisation en 3D du code sous la forme d'une ville. Chaque morceau d'un projet peut être ainsi représenté par un bâtiment et les caractéristiques
+		bâtiment représente des caractéristiques du projet. On peut citer comme exemple, un répertoire est égal à un bâtiment, sa hauteur (la quantité de lignes de code).
+\subsection{\ul{Objectifs}}
+		\par Les objectifs mentionnés dans cet est de comparer le même code modélisé à l'aide du logiciel Code City sur un écran classique et sur un écran de casque de réalité virtuelle.
+		Ils veulent voir s'il y a une différence de compréhension de la structure du code entre les deux méthodes.
+\subsection{\ul{Méthode}}
+		\par Dans l'article, ils ont mené é expériences avec leur propre implémentation de Code City qui peut à la fois tourné sur un écran classique ou bien sur un écran de casque de réalité virtuelle.
+		\par Pour la première expérience, ils ont demandé à 24 participants venant du milieu académique ou industrielle. Á la fin de l'expérience, ils ont demandé un feedback et celui-ci a permis de rectifier le tir 
+		pour la deuxième expérience. Celle-ci s'est déroulée avec 26 nouveaux candidats. L'expérience était identiquement mené, mais en prenant en compte les remarques de la première expérience.
+\subsection{\ul{Résultats}}
+		\par L'expérience a montré que lees participants avec un casque de réalité virtuelle comprenait plus vite la structure du code que ceux avec un écran classique pour atteindre le même niveau de compréhension. 
+
+\end{document}
