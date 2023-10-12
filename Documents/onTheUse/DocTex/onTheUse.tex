@@ -1,0 +1,47 @@
+\documentclass[a4paper,11pt,oneside]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{natbib}
+\geometry{textwidth=17cm,textheight=26cm}
+
+\title{On the use of virtual reality in software visualization : The case of the city metaphor}
+
+\author{Matthys Gaillard}
+    
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{\ul{Pourquoi ce choix?}}
+    \par J'ai choisi ce document\cite{A2}, parce que celui-ci proposait une autre manière d'utiliser la métaphore de Code city mentionnée dans un précédent document. Il propose
+    ici de juger de la compréhension du code via un éditeur de code (IDE) : éclypse. De plus, celui-ci proposait de jauger également les performances du code en détectant ce qu'on appelle les codes smells.
+\section{\ul{Analyse du document}}
+\subsection{\ul{Contexte}} 
+    \par Pour les auteurs du document, la visualisation de code en 3D pour la visualisation logicielle. Une des plus populaires pour eux est ce qu'ils appellent 
+    la métaphore de la ville. Elle consiste à représenter le code sous la forme d'une ville. Chaque morceau d'un projet peut être ainsi représenté par un bâtiment et la forme de celui-ci représente la complexité à tout niveau du code.
+    \par Et donc, ils ont remarqué que récemment cette technique a été implémenté dans des casques de réalité virtuelle.
+\subsection{\ul{Objectifs}}
+    \par L'objectif de ces chercheurs est d'évaluer cette métaphore de la ville sur un écran d'ordinateur standard et sur un écran de casque de réalité virtuelle. Le but est de comprendre un système écrit en Java.
+\subsection{\ul{Méthode}}
+    \par Les auteurs ont mené une expérience dans un milieu contrôlé où ils demandaient aux participants d'accomplir des tâches de compréhension à l'aide
+    d'un environnement de développement intégré (éclypse) avec un plugin de "rassemblement de métriques code"\footnote{for gathering code metrics} et d'identification de mauvais code et d'un outil de visualisation pour voir cette métaphore de la ville sur un écran standard et un écran de réalité virtuelle.
+\subsection{\ul{Résultats}}
+    \par L'utilisation de la métaphore de la ville affichée sur un écran d'ordinateur standard et d'un écran immersif de casque de réalité virtuelle a permis
+    d'améliorer le degré de compréhension des tâches de programmation. Cependant, les participants usant de l'écran standard ont eu de moins bon résultats que ceux ayent utilisé 
+    l'écran de casque de réalité virtuelle.
+\newpage
+\bibliographystyle{plain}
+\bibliography{biblio}
+\end{document}
