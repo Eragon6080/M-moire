@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: CodePark.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Database file #1: biblio.bib
+Warning--empty journal in A0
+You've used 1 entry,
+            2118 wiz_defined-function locations,
+            505 strings with 4212 characters,
+and the built_in function-call counts, 490 in all, are:
+= -- 44
+> -- 28
+< -- 1
++ -- 11
+- -- 10
+* -- 37
+:= -- 83
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 18
+empty$ -- 30
+format.name$ -- 10
+if$ -- 102
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 1
+newline$ -- 8
+num.names$ -- 2
+pop$ -- 10
+preamble$ -- 1
+purify$ -- 7
+quote$ -- 0
+skip$ -- 16
+stack$ -- 0
+substring$ -- 25
+swap$ -- 7
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 4
+warning$ -- 1
+while$ -- 4
+width$ -- 2
+write$ -- 12
+(There was 1 warning)
