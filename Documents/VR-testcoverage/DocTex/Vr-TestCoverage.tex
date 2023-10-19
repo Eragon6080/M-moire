@@ -1,0 +1,62 @@
+\documentclass[a4paper,10pt, oneside]{article}
+%package
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{geometry}
+ \geometry{textwidth=17cm,textheight=26cm}
+\newcommand{\bbox}{\begin{tcolorbox}[colback=red!5!white,
+	colframe=red!75!black]\begin{center}}
+\newcommand{\ebox}{\end{center}\end{tcolorbox}}
+\newcommand{\red}{\colorbox{red}}
+\newcommand{\blue}{\colorbox{blue}}
+\newcommand{\yellow}{\colorbox{yellow}}
+\newcommand{\myit}{\textit}
+\newcommand{\mybf}{\textbf}
+\newcommand{\li}{\newline}
+
+\graphicspath{{./Images/}}
+
+
+\geometry{textwidth=16cm, textheight=26cm}
+
+\title{Fiche de lecture : VR-TestCoverage : Test Coverage Vizualization and immersion in Virtual Reality}
+
+\author{Matthys Gaillard}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+\section{\ul{Pourquoi ce choix ?}}
+        \par J'ai choisi ce document\cite{A1}, car il proposait une autre manière de visualiser un programme. Au lieu de voir
+        directement la structure du code en analysant directement les fichiers sources, il propose d'analyser directement les tests.
+        De fait, cela changeait radicalement des autres documents trouvés précédemment.
+\section{\ul{Analyse du document}}
+\subsection{\ul{Contexte}}
+        \par Les chercheurs ont remarqué que les développeur faisaient souvent face à un dilemne : est-ce que leurs tests sont suffisamment efficaces? 
+        Cela devenait aussi de plus en plus difficile de comprendre le code et les tests au fur et à mesure que les projets grossissaient. Ils pensaient donc, 
+        qu'avec un environnement 3D interactif, ils pourraient amener une compréhension plus aisée et efficace de ces 2 aspects.
+\subsection{\ul{Objectifs}}
+        \par Proposer un environnement 3D pour visualiser les tests de couvertures.
+\subsection{\ul{Méthode}}
+        \par Ils ont utilisé un environnement 3D où ils ont utilisé un tree map utilisant le paradigme de la pyramide pour empiler la représentation des fichiers.
+        Pour cela, ils ont utilisé C\# et Unity pour créer l'environnement 3D. Ils ont aussi utilisé 2 plugins propres à ce langage pour analyser les tests de couvertures.
+        Ce sont les résultats de ces 2 plugins qui permettaient de collecter les données de tests et de savoir si ceux-ci réussissaient. Au final, les résultats des tests étaient retranscrits dans un format JSON spécifique permettant 
+        facilement la lecture par un autre système quelconque. \li 
+        \par Ils ont basé leur travail sur 3 tests : le test de couverture, le test de résultat et le test des dépendances.
+\subsection{\ul{Résultats}}
+        \par Pour ce travail, ils en conclu que la VR peut aider les développeurs à déterminer les zones de leur code qui ont été négligées ou moins y faire attention en vue d'une future correction.
+\newpage
+
+\bibliographystyle{plain}
+\bibliography{biblio}
+\end{document}

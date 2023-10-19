@@ -1,0 +1,65 @@
+\documentclass[a4paper,10pt, oneside]{article}
+%package
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{geometry}
+ \geometry{textwidth=17cm,textheight=26cm}
+\newcommand{\bbox}{\begin{tcolorbox}[colback=red!5!white,
+	colframe=red!75!black]\begin{center}}
+\newcommand{\ebox}{\end{center}\end{tcolorbox}}
+\newcommand{\red}{\colorbox{red}}
+\newcommand{\blue}{\colorbox{blue}}
+\newcommand{\yellow}{\colorbox{yellow}}
+\newcommand{\myit}{\textit}
+\newcommand{\mybf}{\textbf}
+\newcommand{\li}{\newline}
+
+\graphicspath{{./Images/}}
+
+
+\geometry{textwidth=16cm, textheight=26cm}
+
+\title{Fiche de lecture : Visualization of software architectures in virtual reality and augmented reality}
+
+\author{Matthys Gaillard}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+\section{\ul{Pourquoi ce choix ?}}
+        \par J'ai choisi ce document\cite{A1}, car il proposait une autre manière de visualiser les larges bases de code. Au lieu de se 
+        baser sur la métaphore de la ville, ils proposent de se baser sur une île. De plus, il proposait également de de visualiser les données
+        à l'aide de la réalité augmentée.
+\section{\ul{Analyse du document}}
+\subsection{\ul{Contexte}}
+        \par Pour ces chercheurs-ci, l'architecture logicielle est quelque chose d'abstrait. En effet, celle-ci se repose surtout sur du texte écrit.
+        Il existe également différents outils donnant la possibilité de mieux l'appréhender, mais ceux-ci ne sont pas toujours très efficaces.
+        Pour eux, les gens ont besoin d'une métaphore pour aider à comprendre cette architecture abstraite.
+\subsection{\ul{Objectifs}}
+        \par L'objectif de leur projet est d'assurer la compréhension de l'architecture logicielle par les utilisateurs. Pour cela, ils ont décidé
+        de se baser sur une métaphore différente de celle de la ville. En effet, ils ont décidé de se baser sur une île. Ils ont également décidé
+        de l'implémenter à l'aide de la réalité augmentée et de la réalité virtuelle. 
+\subsection{\ul{Méthode}}
+        \par Pour cela, il collecte les données nécessaire à la visualisation en effectuant de la data mining sur le code source et l'arbre de dépendance.
+        Les données collectées sont stockées dans un arbre de database pour effectuer une analyse complémentaire.\li
+        \par Ce graphe permettra de générer les îles. Chaque île représente un package. Les îles sont générées en fonction de la taille du package.
+        Plus les îles sont proches les unes des autres plus il y a une dépendance entre elle qui est forte.
+\subsection{\ul{Résultats}}
+        \par Les chercheurs ont ici effectué aucune étude pour savoir si leur méthode était efficace. Cependant, ils ont quand même testé leur application et 
+        selon eux, c'était bien plus facile de comprendre l'architecture logicielle et la métaphore de l'île était plus facile à comprendre que celle de la ville surtout en ce qui
+        concerne les dépendances entre les différents objets.
+\newpage
+
+\bibliographystyle{plain}
+\bibliography{biblio}
+\end{document}
