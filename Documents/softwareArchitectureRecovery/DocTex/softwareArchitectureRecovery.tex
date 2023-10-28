@@ -1,0 +1,69 @@
+\documentclass[a4paper,10pt, oneside]{article}
+%package
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{geometry}
+
+\newcommand{\bbox}{\begin{tcolorbox}[colback=red!5!white,
+	colframe=red!75!black]\begin{center}}
+\newcommand{\ebox}{\end{center}\end{tcolorbox}}
+\newcommand{\red}{\colorbox{red}}
+\newcommand{\blue}{\colorbox{blue}}
+\newcommand{\yellow}{\colorbox{yellow}}
+\newcommand{\myit}{\textit}
+\newcommand{\mybf}{\textbf}
+\newcommand{\li}{\newline}
+
+\geometry{textwidth=16cm, textheight=26cm}
+
+\title{Fiche de lecture : Utilizing Software Architecture Recovery to Explore Large-Scale Software Systems in Virtual Reality}
+
+\author{Matthys Gaillard}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+\section{\ul{Pourquoi ce choix ?}}
+    \par J'ai choisi ce document\cite{A1}, car en lisant l'abstract et l'introduction, je me suis rendu compte qu'il pouvait être très complet.
+    De plus, dès que j'avais fini de survoler la structure du document, j'ai pu m'affirmer effectivement de la qualité du document.
+    Contrairement à d'autres documents, il explicite très clairement la méthode scientifique utilisée pour ses différentes tests en apportant
+    à chaque fois les détails nécessaires pour comprendre les résultats.\li
+    \par De plus, l'article détaille aussi les détails de ce qu'il cherche à prouver et à partager durant l'expérience.
+\section{\ul{Analyse du document}}
+\subsection{\ul{Contexte}}
+        \par Les chercheurs à l'origine de cette article ont remarqué qu'il était bien compliqué de comprendre l'architecture d'un système logiciel non familier,
+        surtout si une personne ne se base uniquement sur la compréhension directe du code. Cependant, ils expliquent quand même qu'il existe des outils permettant 
+        de visualiser un système en privilégiant la structure directe du code (découpe en package, etc) et en négligeant la structure indirect de celui-ci.\li
+        \par Par cela, je veux dire la dépendance des classes entre elles, mais aussi la taille du code, etc. Ces choses-là sont compliquées à appréhender
+        avec des outils classiques, car ils ne permettent pas de visualiser l'ensemble du système en même temps. 
+\subsection{\ul{Objectifs}}
+        \par Ils ont décidé de créer une approche automatique pour la récupération de l'architecture logicielle et utiliser ses résultats dans un logicielle d'immersion 3D
+        pour enfin accéder à ses connaissances cachées.
+\subsection{\ul{Méthode}}
+        \par Ils ont fait appel à 54 participants de l'université IT de Copenhague. Ils ont été répartis en 3 groupes de 18 personnes. Chaque groupe a été soumis à une méthode.ù
+        Ils ont équilibré les équipes en fonction des connaissances pour éviter de trop grande disparité.\li
+        \par Le premier groupe a été soumis à une méthode classique de visualisation de code via un éditeur de code (Eclipse). Le second groupe a été soumis à une méthode de visualisation de code en 3D.\li
+        \par L'expérience était divisée en 3 parties : 
+        \begin{enumerate}
+            \item Une enquête sur les expériences des participants sur la VR et en programmation.
+            \item Entraînement sur l'équipement qui sera utilisé par la suite.
+            \item La phase de test (Eclipse ou VR).
+        \end{enumerate}
+        \par Après l'expérience, chaque participant a dû répondre à un questionnaire sur l'expérience vécue.
+\subsection{\ul{Résultats}}
+        \par Les résultats montrent que leur approche est plus efficace pour fournir un accès plus facile à l'information et donc, une meilleure compréhension
+        du système cible et de son architecture et ainsi les relations entre les différents éléments le composant.
+
+\bibliographystyle{plain}
+\bibliography{biblio} 
+\end{document}
