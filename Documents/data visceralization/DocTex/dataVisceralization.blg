@@ -1,48 +1,48 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dataVisceralization.aux
-Reallocating 'name_of_file' (item size: 1) to 6 items.
-The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+The style file: apalike-fr.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 Database file #1: biblio.bib
 You've used 1 entry,
-            2118 wiz_defined-function locations,
-            505 strings with 4278 characters,
-and the built_in function-call counts, 485 in all, are:
-= -- 42
-> -- 33
+            2038 wiz_defined-function locations,
+            520 strings with 4612 characters,
+and the built_in function-call counts, 619 in all, are:
+= -- 60
+> -- 32
 < -- 0
-+ -- 13
++ -- 12
 - -- 12
-* -- 46
-:= -- 89
+* -- 55
+:= -- 125
 add.period$ -- 3
 call.type$ -- 1
-change.case$ -- 9
-chr.to.int$ -- 0
+change.case$ -- 11
+chr.to.int$ -- 1
 cite$ -- 1
-duplicate$ -- 11
-empty$ -- 30
-format.name$ -- 12
-if$ -- 93
-int.to.chr$ -- 0
-int.to.str$ -- 1
+duplicate$ -- 14
+empty$ -- 33
+format.name$ -- 13
+if$ -- 115
+int.to.chr$ -- 1
+int.to.str$ -- 0
 missing$ -- 1
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 7
+newline$ -- 13
+num.names$ -- 3
+pop$ -- 9
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 11
 quote$ -- 0
-skip$ -- 7
+skip$ -- 11
 stack$ -- 0
-substring$ -- 32
+substring$ -- 51
 swap$ -- 1
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 6
 warning$ -- 0
 while$ -- 3
-width$ -- 2
-write$ -- 13
+width$ -- 0
+write$ -- 20

@@ -1,9 +1,18 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
 
-\bibitem{A2}
-David Moreno-Lumbreras, Roberto Minelli, Andrea Villaverde, Jesus~M.
-  Gonzalez-Barahona, and Michele Lanza.
+\bibitem[Moreno-Lumbreras \emph{et~al.}, 2023]{A2}
+\bgroup\fonteauteurs\bgroup Moreno-Lumbreras\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Minelli\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Villaverde\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Gonzalez-Barahona\egroup\egroup{}, J.~M. et
+  \bgroup\fonteauteurs\bgroup Lanza\egroup\egroup{}, M. (2023).
 \newblock Codecity: A comparison of on-screen and virtual reality.
-\newblock {\em Information and Software Technology}, 153:107064, 2023.
+\newblock {\em Information and Software Technology},
+  153\string:\penalty500\relax 107064.
 
 \end{thebibliography}

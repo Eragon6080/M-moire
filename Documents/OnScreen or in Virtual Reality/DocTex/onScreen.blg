@@ -1,50 +1,50 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: onScreen.aux
-Reallocating 'name_of_file' (item size: 1) to 6 items.
-The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+The style file: apalike-fr.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 Database file #1: biblio.bib
 Warning--empty journal in A8
 You've used 1 entry,
-            2118 wiz_defined-function locations,
-            505 strings with 4233 characters,
-and the built_in function-call counts, 490 in all, are:
-= -- 44
-> -- 28
+            2038 wiz_defined-function locations,
+            519 strings with 4563 characters,
+and the built_in function-call counts, 622 in all, are:
+= -- 62
+> -- 27
 < -- 1
-+ -- 11
++ -- 10
 - -- 10
-* -- 37
-:= -- 83
+* -- 44
+:= -- 119
 add.period$ -- 3
 call.type$ -- 1
-change.case$ -- 8
-chr.to.int$ -- 0
+change.case$ -- 10
+chr.to.int$ -- 1
 cite$ -- 2
-duplicate$ -- 18
-empty$ -- 30
-format.name$ -- 10
-if$ -- 102
-int.to.chr$ -- 0
-int.to.str$ -- 1
+duplicate$ -- 21
+empty$ -- 33
+format.name$ -- 11
+if$ -- 124
+int.to.chr$ -- 1
+int.to.str$ -- 0
 missing$ -- 1
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 10
+newline$ -- 13
+num.names$ -- 3
+pop$ -- 12
 preamble$ -- 1
-purify$ -- 7
+purify$ -- 10
 quote$ -- 0
-skip$ -- 16
+skip$ -- 20
 stack$ -- 0
-substring$ -- 25
+substring$ -- 44
 swap$ -- 7
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 6
 warning$ -- 1
 while$ -- 4
-width$ -- 2
-write$ -- 12
+width$ -- 0
+write$ -- 19
 (There was 1 warning)

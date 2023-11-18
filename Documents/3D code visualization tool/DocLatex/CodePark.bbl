@@ -1,9 +1,17 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
 
-\bibitem{A0}
-Pooya Khaloo, Mehran Maghoumi, Eugene Taranta, David Bettner, and Joseph
-  Laviola.
+\bibitem[Khaloo \emph{et~al.}, 2017]{A0}
+\bgroup\fonteauteurs\bgroup Khaloo\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Maghoumi\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Taranta\egroup\egroup{}, E.,
+  \bgroup\fonteauteurs\bgroup Bettner\egroup\egroup{}, D. et
+  \bgroup\fonteauteurs\bgroup Laviola\egroup\egroup{}, J. (2017).
 \newblock Code park: A new 3d code visualization tool.
-\newblock pages 43--53, Sep. 2017.
+\newblock pages 43--53.
 
 \end{thebibliography}

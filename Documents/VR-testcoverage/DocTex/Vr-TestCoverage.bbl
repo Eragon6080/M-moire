@@ -1,9 +1,14 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
 
-\bibitem{A1}
-Roy Oberhauser.
+\bibitem[Oberhauser, 2022]{A1}
+\bgroup\fonteauteurs\bgroup Oberhauser\egroup\egroup{}, R. (2022).
 \newblock Vr-testcoverage: Test coverage visualization and immersion in virtual
   reality.
-\newblock pages 1--6, 2022.
+\newblock pages 1--6.
 
 \end{thebibliography}

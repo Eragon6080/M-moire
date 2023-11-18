@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.12)  18 NOV 2023 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.12)  18 NOV 2023 15:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/matth/Desktop/Mémoire/Documents/Visualization of software architecture/DocTex/Vizualization.tex"
-(c:/Users/matth/Desktop/Mémoire/Documents/Visualization of software architecture/DocTex/Vizualization.tex
+**"c:/Users/matth/Desktop/Mémoire/Documents/Immersive visualization of python code/DocTex/pythonCode.tex"
+(c:/Users/matth/Desktop/Mémoire/Documents/Immersive visualization of python code/DocTex/pythonCode.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
 (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -367,25 +367,25 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 File: l3backend-pdftex.def 2023-10-10 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count297
 \l__pdf_internal_box=\box68
-) (Vizualization.aux)
-\openout1 = `Vizualization.aux'.
+) (pythonCode.aux)
+\openout1 = `pythonCode.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Info: Redefining \degres on input line 37.
-LaTeX Info: Redefining \up on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Info: Redefining \degres on input line 38.
+LaTeX Info: Redefining \up on input line 38.
  (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count298
@@ -448,36 +448,35 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 38.
+(Font)              <12> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 38.
+(Font)              <8> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 38.
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
-
- []
-
+(Font)              <6> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 44.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 44.
 [1
 
-{C:/Users/matth/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (Vizualization.bbl) [2] (Vizualization.aux)
+{C:/Users/matth/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (pythonCode.bbl) [2] (pythonCode.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15543 strings out of 474824
- 310900 string characters out of 5750976
- 1930043 words of memory out of 5000000
- 37230 multiletter control sequences out of 15000+600000
- 567091 words of font info for 54 fonts, out of 8000000 for 9000
+ 15553 strings out of 474824
+ 310960 string characters out of 5750976
+ 1931043 words of memory out of 5000000
+ 37238 multiletter control sequences out of 15000+600000
+ 568623 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,6n,87p,537b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
-Output written on Vizualization.pdf (2 pages, 67823 bytes).
+ 83i,6n,87p,534b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
+Output written on pythonCode.pdf (2 pages, 86554 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
+ 279 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

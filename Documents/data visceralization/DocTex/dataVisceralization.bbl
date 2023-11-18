@@ -1,11 +1,20 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
 
-\bibitem{A5}
-Benjamin Lee, Dave Brown, Bongshin Lee, Christophe Hurter, Steven Drucker, and
-  Tim Dwyer.
+\bibitem[Lee \emph{et~al.}, 2021]{A5}
+\bgroup\fonteauteurs\bgroup Lee\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Brown\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Lee\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Hurter\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Drucker\egroup\egroup{}, S. et
+  \bgroup\fonteauteurs\bgroup Dwyer\egroup\egroup{}, T. (2021).
 \newblock Data visceralization: Enabling deeper understanding of data using
   virtual reality.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
-  27(2):1095--1105, 2021.
+  27(2)\string:\penalty500\relax 1095--1105.
 
 \end{thebibliography}

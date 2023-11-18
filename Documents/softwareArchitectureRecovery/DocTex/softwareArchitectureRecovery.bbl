@@ -1,10 +1,17 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
 
-\bibitem{A1}
-Adrian Hoff, Lea Gerling, and Christoph Seidl.
+\bibitem[Hoff \emph{et~al.}, 2022]{A1}
+\bgroup\fonteauteurs\bgroup Hoff\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Gerling\egroup\egroup{}, L. et
+  \bgroup\fonteauteurs\bgroup Seidl\egroup\egroup{}, C. (2022).
 \newblock Utilizing software architecture recovery to explore large-scale
   software systems in virtual reality.
-\newblock page 119 – 130, 2022.
+\newblock page 119 – 130.
 \newblock Cited by: 2; All Open Access, Green Open Access.
 
 \end{thebibliography}

@@ -1,11 +1,19 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
 
-\bibitem{A3}
-Abdulrazak~Yahya Saleh, Goh~Suk Chin, Mohd~Kamal Othman, Fitri~Suraya Mohamad,
-  and Chwen~Jen Chen.
+\bibitem[Saleh \emph{et~al.}, 2023]{A3}
+\bgroup\fonteauteurs\bgroup Saleh\egroup\egroup{}, A.~Y.,
+  \bgroup\fonteauteurs\bgroup Chin\egroup\egroup{}, G.~S.,
+  \bgroup\fonteauteurs\bgroup Othman\egroup\egroup{}, M.~K.,
+  \bgroup\fonteauteurs\bgroup Mohamad\egroup\egroup{}, F.~S. et
+  \bgroup\fonteauteurs\bgroup Chen\egroup\egroup{}, C.~J. (2023).
 \newblock Immersive visualization of python coding using virtual reality.
 \newblock {\em International Journal on Advanced Science, Engineering and
-  Information Technology}, 13(1):336 – 347, 2023.
+  Information Technology}, 13(1)\string:\penalty500\relax 336 – 347.
 \newblock Cited by: 0; All Open Access, Green Open Access, Hybrid Gold Open
   Access.
 

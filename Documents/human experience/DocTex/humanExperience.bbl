@@ -1,3 +1,17 @@
 \begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
+
+\bibitem[Dominic \emph{et~al.}, 2022]{A10}
+\bgroup\fonteauteurs\bgroup Dominic\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Tubre\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Kunkel\egroup\egroup{}, D. et
+  \bgroup\fonteauteurs\bgroup Rodeghero\egroup\egroup{}, P. (2022).
+\newblock The human experience of comprehending source code in virtual reality.
+\newblock {\em Empirical Software Engineering}, 27(7).
+\newblock Cited by: 0; All Open Access, Bronze Open Access, Green Open Access.
 
 \end{thebibliography}

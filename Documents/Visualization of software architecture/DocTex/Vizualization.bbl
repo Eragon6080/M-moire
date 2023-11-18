@@ -1,10 +1,18 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
 
-\bibitem{A1}
-Andreas Schreiber, Lisa Nafeie, Artur Baranowski, Peter Seipel, and Martin
-  Misiak.
+\bibitem[Schreiber \emph{et~al.}, 2019]{A1}
+\bgroup\fonteauteurs\bgroup Schreiber\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Nafeie\egroup\egroup{}, L.,
+  \bgroup\fonteauteurs\bgroup Baranowski\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Seipel\egroup\egroup{}, P. et
+  \bgroup\fonteauteurs\bgroup Misiak\egroup\egroup{}, M. (2019).
 \newblock Visualization of software architectures in virtual reality and
   augmented reality.
-\newblock pages 1--12, March 2019.
+\newblock pages 1--12.
 
 \end{thebibliography}

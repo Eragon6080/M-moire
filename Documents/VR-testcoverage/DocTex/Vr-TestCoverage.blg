@@ -1,50 +1,50 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: CodePark.aux
+The top-level auxiliary file: Vr-TestCoverage.aux
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 The style file: apalike-fr.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 Database file #1: biblio.bib
-Warning--empty journal in A0
+Warning--empty journal in A1
 You've used 1 entry,
             2038 wiz_defined-function locations,
-            519 strings with 4542 characters,
-and the built_in function-call counts, 622 in all, are:
-= -- 62
-> -- 27
-< -- 1
-+ -- 10
-- -- 10
-* -- 44
-:= -- 119
+            519 strings with 4560 characters,
+and the built_in function-call counts, 469 in all, are:
+= -- 51
+> -- 7
+< -- 2
++ -- 2
+- -- 2
+* -- 26
+:= -- 93
 add.period$ -- 3
 call.type$ -- 1
-change.case$ -- 10
+change.case$ -- 6
 chr.to.int$ -- 1
 cite$ -- 2
-duplicate$ -- 21
-empty$ -- 33
-format.name$ -- 11
-if$ -- 124
+duplicate$ -- 19
+empty$ -- 30
+format.name$ -- 3
+if$ -- 94
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 1
 newline$ -- 13
 num.names$ -- 3
-pop$ -- 12
+pop$ -- 7
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 6
 quote$ -- 0
-skip$ -- 20
+skip$ -- 18
 stack$ -- 0
-substring$ -- 44
-swap$ -- 7
+substring$ -- 40
+swap$ -- 5
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 6
 warning$ -- 1
-while$ -- 4
+while$ -- 5
 width$ -- 0
 write$ -- 19
 (There was 1 warning)
