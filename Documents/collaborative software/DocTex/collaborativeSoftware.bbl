@@ -1,0 +1,16 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
+
+\bibitem[Krause-Glau \emph{et~al.}, 2022]{A1}
+\bgroup\fonteauteurs\bgroup Krause-Glau\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Bader\egroup\egroup{}, M. et
+  \bgroup\fonteauteurs\bgroup Hasselbring\egroup\egroup{}, W. (2022).
+\newblock Collaborative software visualization for program comprehension.
+\newblock \emph{In} {\em 2022 Working Conference on Software Visualization
+  (VISSOFT)}, pages 75--86.
+
+\end{thebibliography}
