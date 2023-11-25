@@ -1,0 +1,17 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
+
+\bibitem[Galperin \emph{et~al.}, 2022]{A1}
+\bgroup\fonteauteurs\bgroup Galperin\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Koschke\egroup\egroup{}, R. et
+  \bgroup\fonteauteurs\bgroup Steinbeck\egroup\egroup{}, M. (2022).
+\newblock Visualizing code smells tables or code cities a controlled
+  experiment.
+\newblock \emph{In} {\em 2022 Working Conference on Software Visualization
+  (VISSOFT)}, pages 51--62. IEEE.
+
+\end{thebibliography}

@@ -1,0 +1,66 @@
+\documentclass[a4paper,10pt, oneside]{article}
+%package
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{geometry}
+ \geometry{textwidth=17cm,textheight=26cm}
+\newcommand{\bbox}{\begin{tcolorbox}[colback=red!5!white,
+	colframe=red!75!black]\begin{center}}
+\newcommand{\ebox}{\end{center}\end{tcolorbox}}
+\newcommand{\red}{\colorbox{red}}
+\newcommand{\blue}{\colorbox{blue}}
+\newcommand{\yellow}{\colorbox{yellow}}
+\newcommand{\myit}{\textit}
+\newcommand{\mybf}{\textbf}
+\newcommand{\li}{\newline}
+
+\graphicspath{{./Images/}}
+
+
+\geometry{textwidth=16cm, textheight=26cm}
+
+\title{Fiche de lecture : Visualizing code smells : Tables or Code Cities : A Controlled Experiment}
+
+\author{Matthys Gaillard}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+\section{\ul{Pourquoi ce choix ?}}
+        \par J'ai choisi ce document\cite{A1}, car il proposait une autre manière visualiser les codes smells. En effet, dans les autres documents parlant
+        de la visualisation, les chercheurs ne se basait que sur un seul type de visualisation pour identifier les codes smells ou les erreurs dans le code. Tout cela dans le but de s'assurer 
+        de la compréhension de celui-ci. Afin d'objectiver leurs recherches, ils s'appuyaient bien sur différentes métriques pour voir la complétude et la justesse des réponses. Á cela, les chercheurs ajoutaient bien souvent
+        des questionnaires afin de voir la satisfaction des utilisateurs et obtenir d'autres données qualitatives. \li
+
+        \par Ici, on compare 2 types de visualisations de prime à bord différentes. La première est la représentation habituelle de la visualisation de code en utilisant
+        Code City et l'autre est une représentation du code sous la forme d'un tableau. Le but de cette étude est de voir si la visualisation de code smell est aussi efficace que la visualisation à l'aide d'un tableau.
+\section{\ul{Analyse du document}}
+\subsection{\ul{Contexte}}
+        \par Les chercheurs ont remarqué un nombre croissant de projet permettant de visualiser du code et d'aider à la compréhension de celui-ci. On retrouve notamment la métaphore de la ville, qui est connue sous le nom de 
+        Code City. Cette métaphore permet de visualiser le code sous la forme d'une ville. Les bâtiments représentent les classes et leur forme (hauteur, longueur, profondeur) illustre différentes métriques de celle-ci. Á 
+        partir de cette métaphore, on peut essayer de comprendre les mauvaises pratiques en matière de programmation et d'essayer de les comparer. \li
+\subsection{\ul{Objectifs}}
+        \par L'objectif de cette expérience est de savoir si la visualisation de code smell est aussi efficace que la visualisation à l'aide d'un tableau. Par tableau, on entend une représentation du code smell sous la forme d'un tableau où pour chaque classe ou package,
+        on indique telle ou telle type de code smell et son nombre d’occurrences.\li         
+\subsection{\ul{Méthode}}
+        \par Pour réaliser cette expériences, ils ont décidé de comparer 2 types de visualisation. La première est représenté par le tableau comme mentionné précédemment et le seconde se fait via la métaphore de la ville. \li
+        \par Pour ce faire, ils ont décidé de prendre le même projet et donc, les mêmes code smells. Ils ont également recruté 20 personnes qu'ils diviseront en 2 groupes de 10 personnes. Le premier groupe aura la visualisation sous forme de tableau et le second groupe aura la visualisation sous forme de ville.
+        \par Chaque groupe devra répondre à 3 questions différentes (total 6 questions) et également à 2 types de questionnaire : le premier type est à remplir après chaque tâche et l'autre après la fin de l'expérimentation. Il mesure aussi des données quantitatives comme le temps de complétude pour une tâche et le nombre d'erreurs. 
+\subsection{\ul{Résultats}}
+        \par Les résultats montrent un degré de bonne réponse plus élevé en utilisant la vue par tableau, mais une tendance à répondre plus rapidement pour des petites tâches en utilisant la métaphore de la ville.
+        La conclusion est donc, que la visualisation par Code City est pratique pour un survol rapide des codes smells, mais dès que l'on veut apercevoir des détails, la vue par tableau est plus pratique.
+        
+
+\bibliographystyle{apalike-fr}
+\bibliography{biblio}
+\end{document}
