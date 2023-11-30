@@ -4,47 +4,47 @@ The top-level auxiliary file: UMLBased.aux
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 The style file: apalike-fr.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
-I found no \citation commands---while reading file UMLBased.aux
 Database file #1: biblio.bib
-You've used 0 entries,
+Warning--empty journal in A1
+You've used 1 entry,
             2038 wiz_defined-function locations,
-            512 strings with 4329 characters,
-and the built_in function-call counts, 30 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 8
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+            519 strings with 4532 characters,
+and the built_in function-call counts, 629 in all, are:
+= -- 65
+> -- 22
+< -- 1
++ -- 8
+- -- 8
+* -- 42
+:= -- 116
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 9
+chr.to.int$ -- 1
+cite$ -- 2
+duplicate$ -- 23
+empty$ -- 36
+format.name$ -- 9
+if$ -- 129
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 0
+missing$ -- 1
+newline$ -- 13
+num.names$ -- 3
+pop$ -- 11
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 9
 quote$ -- 0
-skip$ -- 1
+skip$ -- 23
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 52
+swap$ -- 9
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+type$ -- 6
+warning$ -- 1
+while$ -- 4
 width$ -- 0
-write$ -- 7
-(There was 1 error message)
+write$ -- 19
+(There was 1 warning)

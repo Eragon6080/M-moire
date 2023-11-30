@@ -5,4 +5,12 @@
   \def\url#1{{\tt #1}}%
     \message{You should include the url package}\fi
 
+\bibitem[Kučečka \emph{et~al.}, 2022]{A1}
+\bgroup\fonteauteurs\bgroup Kučečka\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Vincúr\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Kapec\egroup\egroup{}, P. et
+  \bgroup\fonteauteurs\bgroup Čičák\egroup\egroup{}, P. (2022).
+\newblock Uml-based live programming environment in virtual reality.
+\newblock pages 177--181.
+
 \end{thebibliography}
