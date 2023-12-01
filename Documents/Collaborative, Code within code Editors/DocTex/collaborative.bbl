@@ -5,4 +5,11 @@
   \def\url#1{{\tt #1}}%
     \message{You should include the url package}\fi
 
+\bibitem[Krause-Glau et Hasselbring, 2023]{A32}
+\bgroup\fonteauteurs\bgroup Krause-Glau\egroup\egroup{}, A. et
+  \bgroup\fonteauteurs\bgroup Hasselbring\egroup\egroup{}, W. (2023).
+\newblock Collaborative, code-proximal dynamic software visualization within
+  code editors.
+\newblock {\em arXiv preprint arXiv:2308.15785}.
+
 \end{thebibliography}
