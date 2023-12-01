@@ -1,14 +1,15 @@
 # Fdb version 4
-["bibtex collaborative"] 1701441254 "collaborative.aux" "collaborative.bbl" "collaborative" 1701441453 0
+["bibtex collaborative"] 1701441254 "collaborative.aux" "collaborative.bbl" "collaborative" 1701446288 0
   "./biblio.bib" 1701441234 230 02c3011287eb73272caa5426b7567559 ""
   "C:/Users/matth/AppData/Local/Programs/MiKTeX/bibtex/bst/bib-fr/apalike-fr.bst" 1129471920 25334 4e421680225a5327e08d67e068fc4fda ""
-  "collaborative.aux" 1701441449 980 4bc0146e8adc0de29d00f8b692059392 "pdflatex"
+  "collaborative.aux" 1701446283 980 4bc0146e8adc0de29d00f8b692059392 "pdflatex"
   (generated)
   "collaborative.bbl"
   "collaborative.blg"
   (rewritten before read)
-["pdflatex"] 1701441448 "c:/Users/matth/Desktop/Mémoire/Documents/Collaborative, Code within code Editors/DocTex/collaborative.tex" "collaborative.pdf" "collaborative" 1701441453 0
+["pdflatex"] 1701446281 "c:/Users/matth/Desktop/Mémoire/Documents/Collaborative, Code within code Editors/DocTex/collaborative.tex" "collaborative.pdf" "collaborative" 1701446288 0
   "C:/Users/matth/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1701419515 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+  "C:/Users/matth/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1685609476 25420 86cbfdd06e9d75641b8ea44d82d90724 ""
   "C:/Users/matth/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1685609474 31952 a115356a20bbfcf42235a7587e9569aa ""
   "C:/Users/matth/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1685609477 40136 045ac9ee4c379ef9f2a5f615e0bd385d ""
   "C:/Users/matth/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/eccc1000.pk" 1686036381 25100 ac15271d5358a90fce25cb363865ca54 ""
@@ -18,6 +19,7 @@
   "C:/Users/matth/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1728.pk" 1685609480 42516 9f52f4ded94e32d71078094d222f5970 ""
   "C:/Users/matth/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecti1000.pk" 1686036386 31892 c9c681622b2b62d59d2c38aceffede89 ""
   "C:/Users/matth/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1701441156 24213231 2c0af92a37191f27f2f849c45d566b5d ""
+  "C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1000.tfm" 993061956 3200 328792ff19833a39406f06fa0555a6dc ""
   "C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1200.tfm" 993061958 3200 b8d69bc738e5ef3e08cefeef3109ff56 ""
   "C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1440.tfm" 993061960 3196 0b37fa3083e15c57cfa8c4ff52f2807a ""
   "C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/eccc1000.tfm" 993061980 2788 9da2d2e7e17b2a98c3aa301c9668a522 ""
@@ -138,10 +140,10 @@
   "C:/Users/matth/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.sty" 1253169183 1380 971a51b00a14503ddf754cab24c3f209 ""
   "C:/Users/matth/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/matth/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/matth/Desktop/Mémoire/Documents/Collaborative, Code within code Editors/DocTex/collaborative.tex" 1701441446 2373 5580a3793249b52dfaa3602c8feccfcf ""
-  "collaborative.aux" 1701441449 980 4bc0146e8adc0de29d00f8b692059392 "pdflatex"
+  "c:/Users/matth/Desktop/Mémoire/Documents/Collaborative, Code within code Editors/DocTex/collaborative.tex" 1701446279 3915 1d70559a18ff8986856282dab7ada5e3 ""
+  "collaborative.aux" 1701446283 980 4bc0146e8adc0de29d00f8b692059392 "pdflatex"
   "collaborative.bbl" 1701441256 592 df96229f1c3aa57e13dea0376cddb528 "bibtex collaborative"
-  "collaborative.tex" 1701441446 2373 5580a3793249b52dfaa3602c8feccfcf ""
+  "collaborative.tex" 1701446279 3915 1d70559a18ff8986856282dab7ada5e3 ""
   (generated)
   "collaborative.aux"
   "collaborative.log"
