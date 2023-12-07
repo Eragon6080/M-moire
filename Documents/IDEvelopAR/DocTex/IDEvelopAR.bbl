@@ -1,0 +1,17 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
+
+\bibitem[Kreber \emph{et~al.}, 2022]{A1}
+\bgroup\fonteauteurs\bgroup Kreber\egroup\egroup{}, L.,
+  \bgroup\fonteauteurs\bgroup Diehl\egroup\egroup{}, S. et
+  \bgroup\fonteauteurs\bgroup Weil\egroup\egroup{}, P. (2022).
+\newblock Idevelopar: A programming interface to enhance code understanding in
+  augmented reality.
+\newblock \emph{In} {\em 2022 Working Conference on Software Visualization
+  (VISSOFT)}, pages 87--95.
+
+\end{thebibliography}
